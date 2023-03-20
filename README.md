@@ -1,5 +1,6 @@
 This is a conceptual tool for our open-source project, Puzzle2 and Sticky.  
-This tool is designed to simulate playblasts only.  
+This tool is designed to simulate playblasts only. 
+
 Please run it as a standalone application.
 
 # Instrallation
@@ -23,8 +24,8 @@ run tools
 
 ### to use
 
-change project, start, end then push "playblast".
-then check stdout.
+change project, start, end then push "playblast".  
+then check stdout.  
 
 # Sticky
 
@@ -71,7 +72,8 @@ I made 5 tasks
 - SetFrames
 - SetHud
   
-most of them are just dummy. 
+most of them are just dummy.   
+
 **but "SetFrames" task is like this:**
 ```
     if start_frame == 0 and end_frame == 0:
@@ -79,8 +81,8 @@ most of them are just dummy.
         new_end_frame = 100
 ```
 
-this task modified start frame and end frame when both of them are 0
-if this tool can use in maya, I will code like this.
+This task modifies the start frame and end frame when both of them are 0. 
+If this tool can be used in Maya, I would code it like this.
 
 ```
     if start_frame == 0 and end_frame == 0:
