@@ -72,7 +72,7 @@ I made 5 tasks
 - SetHud
   
 most of them are just dummy. 
-but "SetFrames" task is like this:
+**but "SetFrames" task is like this:**
 ```
     if start_frame == 0 and end_frame == 0:
         new_start_frame = 1
@@ -94,8 +94,7 @@ Anyway, in this tool, when 0~0 is going to be the default value
 
 In Project A, we needed to create a playblast tool, so I created PzPlayblast for animators.
 
-I designed the tasks as follows:
-
+**I designed the tasks as follows:**
 ```
 1. Create a model panel
 2. Playblast
@@ -114,8 +113,7 @@ Then, I created and added a "SetHud" task.
 I wondered if I could add this to the default, but I decided to add it to a new configuration,
 "PzPlayblast.projectA.ep01.v1.yml". 
 
-The tasks in this configuration are as follows:
-
+**The tasks in this configuration are as follows:**
 ```
 1. Create a model panel
 2. Set the HUD
@@ -134,7 +132,7 @@ First, I created a "SetFrames" task and added it to "PzPlayblast.projectB.v1.yml
 At first, I forgot to add "data_key_replace" to "playblast," so it didn't work well. 
 But once I added "data_key_replace," everything went well. 
 
-The tasks in Project B are as follows:
+**The tasks in Project B are as follows:**
 
 ```
 1. Set frames
