@@ -90,12 +90,12 @@ In Project A, we needed to create a playblast tool, so I created PzPlayblast for
 
 I designed the tasks as follows:
 
-1. Create a model panel.
-2. Playblast.
-3. Remove the model panel.
+1. Create a model panel
+2. Playblast
+3. Remove the model panel
 
 When Project A started, an animator mentioned that "when I set start and end frames to 0,  
-no playblast is created!"  
+movie was not created!"  
 
 So, I added a skip code to the "Playblast" task to prevent this issue from happening again.
 
@@ -104,18 +104,20 @@ The director requested, "I want to see the HUD in the preview."
 
 Then, I created and added a "SetHud" task. 
 I wondered if I could add this to the default, but I decided to add it to a new configuration,
-"PzPlayblast.projectA.ep01.v1.yml". The tasks in this configuration are as follows:
+"PzPlayblast.projectA.ep01.v1.yml". 
 
-1. Create a model panel.
-2. Set the HUD.
-3. Playblast.
-4. Remove the model panel.
+The tasks in this configuration are as follows:
+
+1. Create a model panel
+2. Set the HUD
+3. Playblast
+4. Remove the model panel
 
 As time went by, Project B started, and an animator from Project A asked me,  
 
 "Is it possible to change the behavior of the playblast tool when the start and end frames are 0-0?
 Maybe setting the zoom bar to default is much better than now. 
-Also, we want to save the playblast  to another location."
+Also, we want to save the playblast movies to another location."
 
 First, I created a "SetFrames" task and added it to "PzPlayblast.projectB.v1.yml".   
 
@@ -124,23 +126,23 @@ But once I added "data_key_replace," everything went well.
 
 The tasks in Project B are as follows:
 
-1. Set frames.
-2. Create a model panel.
-3. Set the HUD.
-4. Playblast.
-5. Remove the model panel.
+1. Set frames
+2. Create a model panel
+3. Set the HUD
+4. Playblast
+5. Remove the model panel
    
 Then, I added a new value for the "output path" to "PzPlayblast.projectB.v1.yml".
+This works to change output location.
 
 In the end, PzPlayblast became an essential tool for the animation team, 
 saving them time and effort during the production process. 
 
 Additionally, Sticky and Puzzle have made my development work much easier.
 
-
 Today, 
 Project C started, and a new request came in: 
 "Hey, we need a new tool which does the same thing for 100 files!"
 
 I'm currently working on this, but I'm thinking of creating a GUI to list the files and 
-adding an "Open File" task at the beginning of all of them :) 
+adding an "Open File" task at the beginning. :) 
