@@ -820,3 +820,1047 @@ ModuleNotFoundError: No module named 'sample.tasks.ChangeFrame'
 03-20-23 13:54:04         INFO       Puzzle               play                      line:285   - done: 0:00:00.054974 -
 
 
+03-20-23 16:55:06         DEBUG      Puzzle               __init__                  line:64    baseFilename: H:\projects\colorrd\repos\PzPlayblast2\sample\log\PzPlayblast.log
+03-20-23 16:55:10         INFO       Puzzle               play                      line:214   - tasks start: main -
+
+03-20-23 16:55:10         DEBUG      Puzzle               play                      line:265   - main start - 
+03-20-23 16:55:10         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.CreateModelPanel
+03-20-23 16:55:10         DEBUG      CreateModelPanel     main                      line:12    create panel: new_panel
+03-20-23 16:55:10         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 16:55:10         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.002029
+
+03-20-23 16:55:10         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.Playblast
+03-20-23 16:55:10         CRITICAL   Playblast            main                      line:11    skip: start and end frame is 0
+03-20-23 16:55:10         DEBUG      PzTask               execute                   line:122   return_code: 2
+03-20-23 16:55:10         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.001969
+
+03-20-23 16:55:10         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.RemovePanel
+03-20-23 16:55:10         DEBUG      RemovePanel          main                      line:10    remove panel: new_panel
+03-20-23 16:55:10         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 16:55:10         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.001000
+
+03-20-23 16:55:10         INFO       Puzzle               play                      line:272   - main takes: 0:00:00.062376-
+
+03-20-23 16:55:10         INFO       Puzzle               play                      line:285   - done: 0:00:00.063375 -
+
+
+03-20-23 16:55:14         INFO       Puzzle               play                      line:214   - tasks start: main -
+
+03-20-23 16:55:14         DEBUG      Puzzle               play                      line:265   - main start - 
+03-20-23 16:55:14         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.CreateModelPanel
+03-20-23 16:55:14         DEBUG      CreateModelPanel     main                      line:12    create panel: new_panel
+03-20-23 16:55:14         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 16:55:14         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.001001
+
+03-20-23 16:55:14         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.SetHud
+03-20-23 16:55:14         DEBUG      SetHud               main                      line:12    set HUD
+03-20-23 16:55:14         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 16:55:14         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.002265
+
+03-20-23 16:55:14         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.Playblast
+03-20-23 16:55:14         CRITICAL   Playblast            main                      line:11    skip: start and end frame is 0
+03-20-23 16:55:14         DEBUG      PzTask               execute                   line:122   return_code: 2
+03-20-23 16:55:14         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.002463
+
+03-20-23 16:55:14         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.RemovePanel
+03-20-23 16:55:14         DEBUG      RemovePanel          main                      line:10    remove panel: new_panel
+03-20-23 16:55:14         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 16:55:14         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.001503
+
+03-20-23 16:55:14         INFO       Puzzle               play                      line:272   - main takes: 0:00:00.045938-
+
+03-20-23 16:55:14         INFO       Puzzle               play                      line:285   - done: 0:00:00.047962 -
+
+
+03-20-23 16:55:16         INFO       Puzzle               play                      line:214   - tasks start: main -
+
+03-20-23 16:55:16         DEBUG      Puzzle               play                      line:265   - main start - 
+03-20-23 16:55:16         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.SetFrames
+03-20-23 16:55:16         DEBUG      SetFrames            main                      line:13    set to min max frame
+03-20-23 16:55:16         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 16:55:16         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.001000
+
+03-20-23 16:55:16         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.CreateModelPanel
+03-20-23 16:55:16         DEBUG      CreateModelPanel     main                      line:12    create panel: new_panel
+03-20-23 16:55:16         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 16:55:16         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.001009
+
+03-20-23 16:55:16         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.SetHud
+03-20-23 16:55:16         DEBUG      SetHud               main                      line:12    set HUD
+03-20-23 16:55:16         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 16:55:16         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.002000
+
+03-20-23 16:55:16         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.Playblast
+03-20-23 16:55:16         DEBUG      Playblast            main                      line:15    playblast to: somewhere/work/shots/movie/ep01_s01_c01_anim.avi
+03-20-23 16:55:16         DEBUG      Playblast            main                      line:22    start: 1
+03-20-23 16:55:16         DEBUG      Playblast            main                      line:23    end: 100
+03-20-23 16:55:16         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 16:55:16         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.003009
+
+03-20-23 16:55:16         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.RemovePanel
+03-20-23 16:55:16         DEBUG      RemovePanel          main                      line:10    remove panel: new_panel
+03-20-23 16:55:16         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 16:55:16         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.001999
+
+03-20-23 16:55:16         INFO       Puzzle               play                      line:272   - main takes: 0:00:00.056608-
+
+03-20-23 16:55:16         INFO       Puzzle               play                      line:285   - done: 0:00:00.057609 -
+
+
+03-20-23 16:55:19         INFO       Puzzle               play                      line:214   - tasks start: main -
+
+03-20-23 16:55:19         DEBUG      Puzzle               play                      line:265   - main start - 
+03-20-23 16:55:19         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.CreateModelPanel
+03-20-23 16:55:19         DEBUG      CreateModelPanel     main                      line:12    create panel: new_panel
+03-20-23 16:55:19         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 16:55:19         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.001963
+
+03-20-23 16:55:19         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.Playblast
+03-20-23 16:55:19         CRITICAL   Playblast            main                      line:11    skip: start and end frame is 0
+03-20-23 16:55:19         DEBUG      PzTask               execute                   line:122   return_code: 2
+03-20-23 16:55:19         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.002513
+
+03-20-23 16:55:19         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.RemovePanel
+03-20-23 16:55:19         DEBUG      RemovePanel          main                      line:10    remove panel: new_panel
+03-20-23 16:55:19         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 16:55:19         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.002010
+
+03-20-23 16:55:19         INFO       Puzzle               play                      line:272   - main takes: 0:00:00.032926-
+
+03-20-23 16:55:19         INFO       Puzzle               play                      line:285   - done: 0:00:00.034930 -
+
+
+03-20-23 16:55:40         INFO       Puzzle               play                      line:214   - tasks start: main -
+
+03-20-23 16:55:40         DEBUG      Puzzle               play                      line:265   - main start - 
+03-20-23 16:55:40         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.CreateModelPanel
+03-20-23 16:55:40         DEBUG      CreateModelPanel     main                      line:12    create panel: new_panel
+03-20-23 16:55:40         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 16:55:40         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.002000
+
+03-20-23 16:55:40         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.Playblast
+03-20-23 16:55:40         CRITICAL   Playblast            main                      line:11    skip: start and end frame is 0
+03-20-23 16:55:40         DEBUG      PzTask               execute                   line:122   return_code: 2
+03-20-23 16:55:40         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.001998
+
+03-20-23 16:55:40         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.RemovePanel
+03-20-23 16:55:40         DEBUG      RemovePanel          main                      line:10    remove panel: new_panel
+03-20-23 16:55:40         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 16:55:40         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.001999
+
+03-20-23 16:55:40         INFO       Puzzle               play                      line:272   - main takes: 0:00:00.037871-
+
+03-20-23 16:55:40         INFO       Puzzle               play                      line:285   - done: 0:00:00.039868 -
+
+
+03-20-23 16:55:45         INFO       Puzzle               play                      line:214   - tasks start: main -
+
+03-20-23 16:55:45         DEBUG      Puzzle               play                      line:265   - main start - 
+03-20-23 16:55:45         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.SetFrames
+03-20-23 16:55:45         DEBUG      SetFrames            main                      line:13    set to min max frame
+03-20-23 16:55:45         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 16:55:45         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.001999
+
+03-20-23 16:55:45         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.CreateModelPanel
+03-20-23 16:55:45         DEBUG      CreateModelPanel     main                      line:12    create panel: new_panel
+03-20-23 16:55:45         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 16:55:45         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.002001
+
+03-20-23 16:55:45         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.SetHud
+03-20-23 16:55:45         DEBUG      SetHud               main                      line:12    set HUD
+03-20-23 16:55:45         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 16:55:45         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.001119
+
+03-20-23 16:55:45         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.Playblast
+03-20-23 16:55:45         DEBUG      Playblast            main                      line:15    playblast to: somewhere/work/shots/movie/ep01_s01_c01_anim.avi
+03-20-23 16:55:45         DEBUG      Playblast            main                      line:22    start: 1
+03-20-23 16:55:45         DEBUG      Playblast            main                      line:23    end: 100
+03-20-23 16:55:45         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 16:55:45         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.002005
+
+03-20-23 16:55:45         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.RemovePanel
+03-20-23 16:55:45         DEBUG      RemovePanel          main                      line:10    remove panel: new_panel
+03-20-23 16:55:45         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 16:55:45         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.002008
+
+03-20-23 16:55:45         INFO       Puzzle               play                      line:272   - main takes: 0:00:00.049409-
+
+03-20-23 16:55:45         INFO       Puzzle               play                      line:285   - done: 0:00:00.051408 -
+
+
+03-20-23 16:55:53         INFO       Puzzle               play                      line:214   - tasks start: main -
+
+03-20-23 16:55:53         DEBUG      Puzzle               play                      line:265   - main start - 
+03-20-23 16:55:53         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.SetFrames
+03-20-23 16:55:53         DEBUG      SetFrames            main                      line:13    set to min max frame
+03-20-23 16:55:53         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 16:55:53         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.001933
+
+03-20-23 16:55:53         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.CreateModelPanel
+03-20-23 16:55:53         DEBUG      CreateModelPanel     main                      line:12    create panel: new_panel
+03-20-23 16:55:53         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 16:55:53         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.001000
+
+03-20-23 16:55:53         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.SetHud
+03-20-23 16:55:53         DEBUG      SetHud               main                      line:12    set HUD
+03-20-23 16:55:53         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 16:55:53         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.002000
+
+03-20-23 16:55:53         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.Playblast
+03-20-23 16:55:53         DEBUG      Playblast            main                      line:15    playblast to: somewhere/work/shots/movie/ep01_s01_c01_anim.avi
+03-20-23 16:55:53         DEBUG      Playblast            main                      line:22    start: 1
+03-20-23 16:55:53         DEBUG      Playblast            main                      line:23    end: 100
+03-20-23 16:55:53         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 16:55:53         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.004999
+
+03-20-23 16:55:53         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.RemovePanel
+03-20-23 16:55:53         DEBUG      RemovePanel          main                      line:10    remove panel: new_panel
+03-20-23 16:55:53         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 16:55:53         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.001515
+
+03-20-23 16:55:53         INFO       Puzzle               play                      line:272   - main takes: 0:00:00.049666-
+
+03-20-23 16:55:53         INFO       Puzzle               play                      line:285   - done: 0:00:00.050667 -
+
+
+03-20-23 17:57:25         DEBUG      Puzzle               __init__                  line:64    baseFilename: H:\projects\colorrd\repos\PzPlayblast2\sample\log\PzPlayblast.log
+03-20-23 17:57:49         INFO       Puzzle               play                      line:214   - tasks start: main -
+
+03-20-23 17:57:49         DEBUG      Puzzle               play                      line:265   - main start - 
+03-20-23 17:57:49         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.CreateModelPanel
+03-20-23 17:57:49         DEBUG      CreateModelPanel     main                      line:12    create panel: new_panel
+03-20-23 17:57:49         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 17:57:49         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.002001
+
+03-20-23 17:57:49         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.Playblast
+03-20-23 17:57:49         CRITICAL   Playblast            main                      line:11    skip: start and end frame is 0
+03-20-23 17:57:49         DEBUG      PzTask               execute                   line:122   return_code: 2
+03-20-23 17:57:49         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.001998
+
+03-20-23 17:57:49         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.RemovePanel
+03-20-23 17:57:50         DEBUG      RemovePanel          main                      line:10    remove panel: new_panel
+03-20-23 17:57:50         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 17:57:50         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.001000
+
+03-20-23 17:57:50         INFO       Puzzle               play                      line:272   - main takes: 0:00:00.140167-
+
+03-20-23 17:57:50         INFO       Puzzle               play                      line:285   - done: 0:00:00.142163 -
+
+
+03-20-23 17:58:07         INFO       Puzzle               play                      line:214   - tasks start: main -
+
+03-20-23 17:58:07         DEBUG      Puzzle               play                      line:265   - main start - 
+03-20-23 17:58:07         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.CreateModelPanel
+03-20-23 17:58:07         DEBUG      CreateModelPanel     main                      line:12    create panel: new_panel
+03-20-23 17:58:07         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 17:58:07         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.001999
+
+03-20-23 17:58:07         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.Playblast
+03-20-23 17:58:07         CRITICAL   Playblast            main                      line:11    skip: start and end frame is 0
+03-20-23 17:58:07         DEBUG      PzTask               execute                   line:122   return_code: 2
+03-20-23 17:58:07         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.000999
+
+03-20-23 17:58:07         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.RemovePanel
+03-20-23 17:58:07         DEBUG      RemovePanel          main                      line:10    remove panel: new_panel
+03-20-23 17:58:07         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 17:58:07         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.002000
+
+03-20-23 17:58:07         INFO       Puzzle               play                      line:272   - main takes: 0:00:00.029769-
+
+03-20-23 17:58:07         INFO       Puzzle               play                      line:285   - done: 0:00:00.032767 -
+
+
+03-20-23 18:01:20         DEBUG      Puzzle               __init__                  line:64    baseFilename: H:\projects\colorrd\repos\PzPlayblast2\sample\log\PzPlayblast.log
+03-20-23 18:01:23         INFO       Puzzle               play                      line:214   - tasks start: main -
+
+03-20-23 18:01:23         DEBUG      Puzzle               play                      line:265   - main start - 
+03-20-23 18:01:23         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.CreateModelPanel
+03-20-23 18:01:23         DEBUG      CreateModelPanel     main                      line:12    create panel: new_panel
+03-20-23 18:01:23         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:01:23         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.001954
+
+03-20-23 18:01:23         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.Playblast
+03-20-23 18:01:23         CRITICAL   Playblast            main                      line:11    skip: start and end frame is 0
+03-20-23 18:01:23         DEBUG      PzTask               execute                   line:122   return_code: 2
+03-20-23 18:01:23         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.003000
+
+03-20-23 18:01:23         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.RemovePanel
+03-20-23 18:01:23         DEBUG      RemovePanel          main                      line:10    remove panel: new_panel
+03-20-23 18:01:23         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:01:23         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.002024
+
+03-20-23 18:01:23         INFO       Puzzle               play                      line:272   - main takes: 0:00:00.052810-
+
+03-20-23 18:01:23         INFO       Puzzle               play                      line:285   - done: 0:00:00.054313 -
+
+
+03-20-23 18:03:30         DEBUG      Puzzle               __init__                  line:64    baseFilename: H:\projects\colorrd\repos\PzPlayblast2\sample\log\PzPlayblast.log
+03-20-23 18:03:32         INFO       Puzzle               play                      line:214   - tasks start: main -
+
+03-20-23 18:03:32         DEBUG      Puzzle               play                      line:265   - main start - 
+03-20-23 18:03:32         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.CreateModelPanel
+03-20-23 18:03:32         DEBUG      CreateModelPanel     main                      line:12    create panel: new_panel
+03-20-23 18:03:32         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:03:32         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.001942
+
+03-20-23 18:03:32         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.Playblast
+03-20-23 18:03:32         CRITICAL   Playblast            main                      line:11    skip: start and end frame is 0
+03-20-23 18:03:32         DEBUG      PzTask               execute                   line:122   return_code: 2
+03-20-23 18:03:32         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.002000
+
+03-20-23 18:03:32         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.RemovePanel
+03-20-23 18:03:32         DEBUG      RemovePanel          main                      line:10    remove panel: new_panel
+03-20-23 18:03:32         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:03:32         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.002000
+
+03-20-23 18:03:32         INFO       Puzzle               play                      line:272   - main takes: 0:00:00.111357-
+
+03-20-23 18:03:32         INFO       Puzzle               play                      line:285   - done: 0:00:00.113357 -
+
+
+03-20-23 18:04:53         DEBUG      Puzzle               __init__                  line:64    baseFilename: H:\projects\colorrd\repos\PzPlayblast2\sample\log\PzPlayblast.log
+03-20-23 18:04:55         INFO       Puzzle               play                      line:214   - tasks start: main -
+
+03-20-23 18:04:55         DEBUG      Puzzle               play                      line:265   - main start - 
+03-20-23 18:04:55         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.CreateModelPanel
+03-20-23 18:04:55         DEBUG      CreateModelPanel     main                      line:12    create panel: new_panel
+03-20-23 18:04:55         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:04:55         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.001624
+
+03-20-23 18:04:55         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.Playblast
+03-20-23 18:04:55         CRITICAL   Playblast            main                      line:11    skip: start and end frame is 0
+03-20-23 18:04:55         DEBUG      PzTask               execute                   line:122   return_code: 2
+03-20-23 18:04:55         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.001998
+
+03-20-23 18:04:55         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.RemovePanel
+03-20-23 18:04:55         DEBUG      RemovePanel          main                      line:10    remove panel: new_panel
+03-20-23 18:04:55         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:04:55         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.001369
+
+03-20-23 18:04:55         INFO       Puzzle               play                      line:272   - main takes: 0:00:00.108400-
+
+03-20-23 18:04:55         INFO       Puzzle               play                      line:285   - done: 0:00:00.110401 -
+
+
+03-20-23 18:04:55         INFO       Puzzle               play                      line:214   - tasks start: main -
+
+03-20-23 18:04:55         DEBUG      Puzzle               play                      line:265   - main start - 
+03-20-23 18:04:55         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.CreateModelPanel
+03-20-23 18:04:55         DEBUG      CreateModelPanel     main                      line:12    create panel: new_panel
+03-20-23 18:04:55         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:04:55         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.001937
+
+03-20-23 18:04:55         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.Playblast
+03-20-23 18:04:55         CRITICAL   Playblast            main                      line:11    skip: start and end frame is 0
+03-20-23 18:04:55         DEBUG      PzTask               execute                   line:122   return_code: 2
+03-20-23 18:04:55         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.002000
+
+03-20-23 18:04:55         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.RemovePanel
+03-20-23 18:04:55         DEBUG      RemovePanel          main                      line:10    remove panel: new_panel
+03-20-23 18:04:55         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:04:55         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.002000
+
+03-20-23 18:04:55         INFO       Puzzle               play                      line:272   - main takes: 0:00:00.026336-
+
+03-20-23 18:04:55         INFO       Puzzle               play                      line:285   - done: 0:00:00.028360 -
+
+
+03-20-23 18:05:13         DEBUG      Puzzle               __init__                  line:64    baseFilename: H:\projects\colorrd\repos\PzPlayblast2\sample\log\PzPlayblast.log
+03-20-23 18:05:15         INFO       Puzzle               play                      line:214   - tasks start: main -
+
+03-20-23 18:05:15         DEBUG      Puzzle               play                      line:265   - main start - 
+03-20-23 18:05:15         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.CreateModelPanel
+03-20-23 18:05:15         DEBUG      CreateModelPanel     main                      line:12    create panel: new_panel
+03-20-23 18:05:15         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:05:15         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.002001
+
+03-20-23 18:05:15         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.Playblast
+03-20-23 18:05:15         CRITICAL   Playblast            main                      line:11    skip: start and end frame is 0
+03-20-23 18:05:15         DEBUG      PzTask               execute                   line:122   return_code: 2
+03-20-23 18:05:15         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.000999
+
+03-20-23 18:05:15         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.RemovePanel
+03-20-23 18:05:15         DEBUG      RemovePanel          main                      line:10    remove panel: new_panel
+03-20-23 18:05:15         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:05:15         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.001010
+
+03-20-23 18:05:15         INFO       Puzzle               play                      line:272   - main takes: 0:00:00.100177-
+
+03-20-23 18:05:15         INFO       Puzzle               play                      line:285   - done: 0:00:00.102204 -
+
+
+03-20-23 18:05:20         INFO       Puzzle               play                      line:214   - tasks start: main -
+
+03-20-23 18:05:20         DEBUG      Puzzle               play                      line:265   - main start - 
+03-20-23 18:05:20         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.CreateModelPanel
+03-20-23 18:05:20         DEBUG      CreateModelPanel     main                      line:12    create panel: new_panel
+03-20-23 18:05:20         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:05:20         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.002018
+
+03-20-23 18:05:20         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.SetHud
+03-20-23 18:05:20         DEBUG      SetHud               main                      line:12    set HUD
+03-20-23 18:05:20         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:05:20         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.002000
+
+03-20-23 18:05:20         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.Playblast
+03-20-23 18:05:20         CRITICAL   Playblast            main                      line:11    skip: start and end frame is 0
+03-20-23 18:05:20         DEBUG      PzTask               execute                   line:122   return_code: 2
+03-20-23 18:05:20         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.002000
+
+03-20-23 18:05:20         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.RemovePanel
+03-20-23 18:05:20         DEBUG      RemovePanel          main                      line:10    remove panel: new_panel
+03-20-23 18:05:20         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:05:20         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.001010
+
+03-20-23 18:05:20         INFO       Puzzle               play                      line:272   - main takes: 0:00:00.055356-
+
+03-20-23 18:05:20         INFO       Puzzle               play                      line:285   - done: 0:00:00.057254 -
+
+
+03-20-23 18:06:51         DEBUG      Puzzle               __init__                  line:64    baseFilename: H:\projects\colorrd\repos\PzPlayblast2\sample\log\PzPlayblast.log
+03-20-23 18:06:52         INFO       Puzzle               play                      line:214   - tasks start: main -
+
+03-20-23 18:06:52         DEBUG      Puzzle               play                      line:265   - main start - 
+03-20-23 18:06:52         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.CreateModelPanel
+03-20-23 18:06:52         DEBUG      CreateModelPanel     main                      line:12    create panel: new_panel
+03-20-23 18:06:52         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:06:52         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.001969
+
+03-20-23 18:06:52         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.Playblast
+03-20-23 18:06:52         CRITICAL   Playblast            main                      line:11    skip: start and end frame is 0
+03-20-23 18:06:52         DEBUG      PzTask               execute                   line:122   return_code: 2
+03-20-23 18:06:52         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.002453
+
+03-20-23 18:06:52         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.RemovePanel
+03-20-23 18:06:52         DEBUG      RemovePanel          main                      line:10    remove panel: new_panel
+03-20-23 18:06:52         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:06:52         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.001971
+
+03-20-23 18:06:52         INFO       Puzzle               play                      line:272   - main takes: 0:00:00.117305-
+
+03-20-23 18:06:52         INFO       Puzzle               play                      line:285   - done: 0:00:00.120329 -
+
+
+03-20-23 18:07:00         INFO       Puzzle               play                      line:214   - tasks start: main -
+
+03-20-23 18:07:00         DEBUG      Puzzle               play                      line:265   - main start - 
+03-20-23 18:07:00         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.CreateModelPanel
+03-20-23 18:07:00         DEBUG      CreateModelPanel     main                      line:12    create panel: new_panel
+03-20-23 18:07:00         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:07:00         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.002000
+
+03-20-23 18:07:00         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.SetHud
+03-20-23 18:07:00         DEBUG      SetHud               main                      line:12    set HUD
+03-20-23 18:07:00         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:07:00         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.002000
+
+03-20-23 18:07:00         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.Playblast
+03-20-23 18:07:00         CRITICAL   Playblast            main                      line:11    skip: start and end frame is 0
+03-20-23 18:07:00         DEBUG      PzTask               execute                   line:122   return_code: 2
+03-20-23 18:07:00         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.002001
+
+03-20-23 18:07:00         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.RemovePanel
+03-20-23 18:07:00         DEBUG      RemovePanel          main                      line:10    remove panel: new_panel
+03-20-23 18:07:00         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:07:00         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.002000
+
+03-20-23 18:07:00         INFO       Puzzle               play                      line:272   - main takes: 0:00:00.039202-
+
+03-20-23 18:07:00         INFO       Puzzle               play                      line:285   - done: 0:00:00.042202 -
+
+
+03-20-23 18:07:08         INFO       Puzzle               play                      line:214   - tasks start: main -
+
+03-20-23 18:07:08         DEBUG      Puzzle               play                      line:265   - main start - 
+03-20-23 18:07:08         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.SetFrames
+03-20-23 18:07:08         DEBUG      SetFrames            main                      line:13    set to min max frame
+03-20-23 18:07:08         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:07:08         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.002000
+
+03-20-23 18:07:08         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.CreateModelPanel
+03-20-23 18:07:08         DEBUG      CreateModelPanel     main                      line:12    create panel: new_panel
+03-20-23 18:07:08         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:07:08         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.001001
+
+03-20-23 18:07:08         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.SetHud
+03-20-23 18:07:08         DEBUG      SetHud               main                      line:12    set HUD
+03-20-23 18:07:08         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:07:08         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.001328
+
+03-20-23 18:07:08         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.Playblast
+03-20-23 18:07:08         DEBUG      Playblast            main                      line:16    playblast to: somewhere/work/shots/movie/ep01_s01_c01_anim.avi
+03-20-23 18:07:08         DEBUG      Playblast            main                      line:23    start: 1
+03-20-23 18:07:08         DEBUG      Playblast            main                      line:24    end: 100
+03-20-23 18:07:08         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:07:08         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.003003
+
+03-20-23 18:07:08         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.RemovePanel
+03-20-23 18:07:08         DEBUG      RemovePanel          main                      line:10    remove panel: new_panel
+03-20-23 18:07:08         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:07:08         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.002000
+
+03-20-23 18:07:08         INFO       Puzzle               play                      line:272   - main takes: 0:00:00.063058-
+
+03-20-23 18:07:08         INFO       Puzzle               play                      line:285   - done: 0:00:00.065059 -
+
+
+03-20-23 18:08:39         DEBUG      Puzzle               __init__                  line:64    baseFilename: H:\projects\colorrd\repos\PzPlayblast2\sample\log\PzPlayblast.log
+03-20-23 18:08:45         INFO       Puzzle               play                      line:214   - tasks start: main -
+
+03-20-23 18:08:45         DEBUG      Puzzle               play                      line:265   - main start - 
+03-20-23 18:08:45         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.CreateModelPanel
+03-20-23 18:08:45         DEBUG      CreateModelPanel     main                      line:12    create panel: new_panel
+03-20-23 18:08:45         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:08:45         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.002000
+
+03-20-23 18:08:45         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.Playblast
+03-20-23 18:08:45         CRITICAL   Playblast            main                      line:11    skip: start and end frame is 0
+03-20-23 18:08:45         DEBUG      PzTask               execute                   line:122   return_code: 2
+03-20-23 18:08:45         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.001984
+
+03-20-23 18:08:45         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.RemovePanel
+03-20-23 18:08:45         DEBUG      RemovePanel          main                      line:10    remove panel: new_panel
+03-20-23 18:08:45         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:08:45         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.002009
+
+03-20-23 18:08:45         INFO       Puzzle               play                      line:272   - main takes: 0:00:00.053043-
+
+03-20-23 18:08:45         INFO       Puzzle               play                      line:285   - done: 0:00:00.055053 -
+
+
+03-20-23 18:08:58         INFO       Puzzle               play                      line:214   - tasks start: main -
+
+03-20-23 18:08:58         DEBUG      Puzzle               play                      line:265   - main start - 
+03-20-23 18:08:58         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.CreateModelPanel
+03-20-23 18:08:58         DEBUG      CreateModelPanel     main                      line:12    create panel: new_panel
+03-20-23 18:08:58         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:08:58         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.001989
+
+03-20-23 18:08:58         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.SetHud
+03-20-23 18:08:58         DEBUG      SetHud               main                      line:12    set HUD
+03-20-23 18:08:58         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:08:58         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.002000
+
+03-20-23 18:08:58         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.Playblast
+03-20-23 18:08:58         CRITICAL   Playblast            main                      line:11    skip: start and end frame is 0
+03-20-23 18:08:58         DEBUG      PzTask               execute                   line:122   return_code: 2
+03-20-23 18:08:58         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.001990
+
+03-20-23 18:08:58         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.RemovePanel
+03-20-23 18:08:58         DEBUG      RemovePanel          main                      line:10    remove panel: new_panel
+03-20-23 18:08:58         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:08:58         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.001026
+
+03-20-23 18:08:58         INFO       Puzzle               play                      line:272   - main takes: 0:00:00.045043-
+
+03-20-23 18:08:58         INFO       Puzzle               play                      line:285   - done: 0:00:00.047042 -
+
+
+03-20-23 18:09:02         INFO       Puzzle               play                      line:214   - tasks start: main -
+
+03-20-23 18:09:02         DEBUG      Puzzle               play                      line:265   - main start - 
+03-20-23 18:09:02         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.SetFrames
+03-20-23 18:09:02         DEBUG      SetFrames            main                      line:13    set to min max frame
+03-20-23 18:09:02         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:09:02         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.002002
+
+03-20-23 18:09:02         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.CreateModelPanel
+03-20-23 18:09:02         DEBUG      CreateModelPanel     main                      line:12    create panel: new_panel
+03-20-23 18:09:02         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:09:02         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.001974
+
+03-20-23 18:09:02         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.SetHud
+03-20-23 18:09:02         DEBUG      SetHud               main                      line:12    set HUD
+03-20-23 18:09:03         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:09:03         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.001999
+
+03-20-23 18:09:03         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.Playblast
+03-20-23 18:09:03         DEBUG      Playblast            main                      line:16    playblast to: somewhere/work/shots/movie/ep01_s01_c01_anim.avi
+03-20-23 18:09:03         DEBUG      Playblast            main                      line:23    start: 1
+03-20-23 18:09:03         DEBUG      Playblast            main                      line:24    end: 100
+03-20-23 18:09:03         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:09:03         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.002999
+
+03-20-23 18:09:03         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.RemovePanel
+03-20-23 18:09:03         DEBUG      RemovePanel          main                      line:10    remove panel: new_panel
+03-20-23 18:09:03         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:09:03         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.000903
+
+03-20-23 18:09:03         INFO       Puzzle               play                      line:272   - main takes: 0:00:00.051460-
+
+03-20-23 18:09:03         INFO       Puzzle               play                      line:285   - done: 0:00:00.053457 -
+
+
+03-20-23 18:11:33         DEBUG      Puzzle               __init__                  line:64    baseFilename: H:\projects\colorrd\repos\PzPlayblast2\sample\log\PzPlayblast.log
+03-20-23 18:11:35         INFO       Puzzle               play                      line:214   - tasks start: main -
+
+03-20-23 18:11:35         DEBUG      Puzzle               play                      line:265   - main start - 
+03-20-23 18:11:35         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.CreateModelPanel
+03-20-23 18:11:35         DEBUG      CreateModelPanel     main                      line:12    create panel: new_panel
+03-20-23 18:11:35         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:11:35         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.001986
+
+03-20-23 18:11:35         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.Playblast
+03-20-23 18:11:35         CRITICAL   Playblast            main                      line:11    skip: start and end frame is 0
+03-20-23 18:11:35         DEBUG      PzTask               execute                   line:122   return_code: 2
+03-20-23 18:11:35         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.000973
+
+03-20-23 18:11:35         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.RemovePanel
+03-20-23 18:11:35         DEBUG      RemovePanel          main                      line:10    remove panel: new_panel
+03-20-23 18:11:35         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:11:35         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.001000
+
+03-20-23 18:11:35         INFO       Puzzle               play                      line:272   - main takes: 0:00:00.099634-
+
+03-20-23 18:11:35         INFO       Puzzle               play                      line:285   - done: 0:00:00.101634 -
+
+
+03-20-23 18:11:43         INFO       Puzzle               play                      line:214   - tasks start: main -
+
+03-20-23 18:11:43         DEBUG      Puzzle               play                      line:265   - main start - 
+03-20-23 18:11:43         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.CreateModelPanel
+03-20-23 18:11:43         DEBUG      CreateModelPanel     main                      line:12    create panel: new_panel
+03-20-23 18:11:43         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:11:43         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.002122
+
+03-20-23 18:11:43         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.SetHud
+03-20-23 18:11:43         DEBUG      SetHud               main                      line:12    set HUD
+03-20-23 18:11:43         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:11:43         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.001974
+
+03-20-23 18:11:43         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.Playblast
+03-20-23 18:11:43         CRITICAL   Playblast            main                      line:11    skip: start and end frame is 0
+03-20-23 18:11:43         DEBUG      PzTask               execute                   line:122   return_code: 2
+03-20-23 18:11:43         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.001784
+
+03-20-23 18:11:43         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.RemovePanel
+03-20-23 18:11:43         DEBUG      RemovePanel          main                      line:10    remove panel: new_panel
+03-20-23 18:11:43         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:11:43         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.001000
+
+03-20-23 18:11:43         INFO       Puzzle               play                      line:272   - main takes: 0:00:00.040236-
+
+03-20-23 18:11:43         INFO       Puzzle               play                      line:285   - done: 0:00:00.043210 -
+
+
+03-20-23 18:11:47         INFO       Puzzle               play                      line:214   - tasks start: main -
+
+03-20-23 18:11:47         DEBUG      Puzzle               play                      line:265   - main start - 
+03-20-23 18:11:47         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.SetFrames
+03-20-23 18:11:47         DEBUG      SetFrames            main                      line:13    set to min max frame
+03-20-23 18:11:47         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:11:47         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.000964
+
+03-20-23 18:11:47         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.CreateModelPanel
+03-20-23 18:11:47         DEBUG      CreateModelPanel     main                      line:12    create panel: new_panel
+03-20-23 18:11:47         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:11:47         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.002000
+
+03-20-23 18:11:47         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.SetHud
+03-20-23 18:11:47         DEBUG      SetHud               main                      line:12    set HUD
+03-20-23 18:11:47         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:11:47         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.002039
+
+03-20-23 18:11:47         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.Playblast
+03-20-23 18:11:47         DEBUG      Playblast            main                      line:16    playblast to: somewhere/work/shots/movie/ep01_s01_c01_anim.avi
+03-20-23 18:11:47         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:11:47         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.001007
+
+03-20-23 18:11:47         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.RemovePanel
+03-20-23 18:11:47         DEBUG      RemovePanel          main                      line:10    remove panel: new_panel
+03-20-23 18:11:47         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:11:47         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.002000
+
+03-20-23 18:11:47         INFO       Puzzle               play                      line:272   - main takes: 0:00:00.048688-
+
+03-20-23 18:11:47         INFO       Puzzle               play                      line:285   - done: 0:00:00.049916 -
+
+
+03-20-23 18:11:57         INFO       Puzzle               play                      line:214   - tasks start: main -
+
+03-20-23 18:11:57         DEBUG      Puzzle               play                      line:265   - main start - 
+03-20-23 18:11:57         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.CreateModelPanel
+03-20-23 18:11:57         DEBUG      CreateModelPanel     main                      line:12    create panel: new_panel
+03-20-23 18:11:57         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:11:57         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.002000
+
+03-20-23 18:11:57         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.SetHud
+03-20-23 18:11:57         DEBUG      SetHud               main                      line:12    set HUD
+03-20-23 18:11:57         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:11:57         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.002000
+
+03-20-23 18:11:57         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.Playblast
+03-20-23 18:11:57         CRITICAL   Playblast            main                      line:11    skip: start and end frame is 0
+03-20-23 18:11:57         DEBUG      PzTask               execute                   line:122   return_code: 2
+03-20-23 18:11:57         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.001000
+
+03-20-23 18:11:57         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.RemovePanel
+03-20-23 18:11:57         DEBUG      RemovePanel          main                      line:10    remove panel: new_panel
+03-20-23 18:11:57         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:11:57         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.000997
+
+03-20-23 18:11:57         INFO       Puzzle               play                      line:272   - main takes: 0:00:00.036372-
+
+03-20-23 18:11:57         INFO       Puzzle               play                      line:285   - done: 0:00:00.038374 -
+
+
+03-20-23 18:15:51         DEBUG      Puzzle               __init__                  line:64    baseFilename: H:\projects\colorrd\repos\PzPlayblast2\sample\log\PzPlayblast.log
+03-20-23 18:15:53         INFO       Puzzle               play                      line:214   - tasks start: main -
+
+03-20-23 18:15:53         DEBUG      Puzzle               play                      line:265   - main start - 
+03-20-23 18:15:53         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.CreateModelPanel
+03-20-23 18:15:53         DEBUG      CreateModelPanel     main                      line:12    create panel: new_panel
+03-20-23 18:15:53         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:15:53         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.002000
+
+03-20-23 18:15:53         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.Playblast
+03-20-23 18:15:53         CRITICAL   Playblast            main                      line:11    skip: start and end frame is 0
+03-20-23 18:15:53         DEBUG      PzTask               execute                   line:122   return_code: 2
+03-20-23 18:15:53         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.002059
+
+03-20-23 18:15:53         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.RemovePanel
+03-20-23 18:15:53         DEBUG      RemovePanel          main                      line:10    remove panel: new_panel
+03-20-23 18:15:53         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:15:53         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.000976
+
+03-20-23 18:15:53         INFO       Puzzle               play                      line:272   - main takes: 0:00:00.103381-
+
+03-20-23 18:15:53         INFO       Puzzle               play                      line:285   - done: 0:00:00.105379 -
+
+
+03-20-23 18:16:09         DEBUG      Puzzle               __init__                  line:64    baseFilename: H:\projects\colorrd\repos\PzPlayblast2\sample\log\PzPlayblast.log
+03-20-23 18:16:11         INFO       Puzzle               play                      line:214   - tasks start: main -
+
+03-20-23 18:16:11         DEBUG      Puzzle               play                      line:265   - main start - 
+03-20-23 18:16:11         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.CreateModelPanel
+03-20-23 18:16:11         DEBUG      CreateModelPanel     main                      line:12    create panel: new_panel
+03-20-23 18:16:11         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:16:11         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.002006
+
+03-20-23 18:16:11         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.Playblast
+03-20-23 18:16:11         CRITICAL   Playblast            main                      line:11    skip: start and end frame is 0
+03-20-23 18:16:11         DEBUG      PzTask               execute                   line:122   return_code: 2
+03-20-23 18:16:11         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.000999
+
+03-20-23 18:16:11         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.RemovePanel
+03-20-23 18:16:11         DEBUG      RemovePanel          main                      line:10    remove panel: new_panel
+03-20-23 18:16:11         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:16:11         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.002000
+
+03-20-23 18:16:11         INFO       Puzzle               play                      line:272   - main takes: 0:00:00.050960-
+
+03-20-23 18:16:11         INFO       Puzzle               play                      line:285   - done: 0:00:00.052959 -
+
+
+03-20-23 18:16:24         INFO       Puzzle               play                      line:214   - tasks start: main -
+
+03-20-23 18:16:24         DEBUG      Puzzle               play                      line:265   - main start - 
+03-20-23 18:16:24         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.CreateModelPanel
+03-20-23 18:16:24         DEBUG      CreateModelPanel     main                      line:12    create panel: new_panel
+03-20-23 18:16:24         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:16:24         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.001000
+
+03-20-23 18:16:24         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.SetHud
+03-20-23 18:16:24         DEBUG      SetHud               main                      line:12    set HUD
+03-20-23 18:16:24         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:16:24         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.002013
+
+03-20-23 18:16:24         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.Playblast
+03-20-23 18:16:24         CRITICAL   Playblast            main                      line:11    skip: start and end frame is 0
+03-20-23 18:16:24         DEBUG      PzTask               execute                   line:122   return_code: 2
+03-20-23 18:16:24         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.002001
+
+03-20-23 18:16:24         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.RemovePanel
+03-20-23 18:16:24         DEBUG      RemovePanel          main                      line:10    remove panel: new_panel
+03-20-23 18:16:24         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:16:24         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.001975
+
+03-20-23 18:16:24         INFO       Puzzle               play                      line:272   - main takes: 0:00:00.043041-
+
+03-20-23 18:16:24         INFO       Puzzle               play                      line:285   - done: 0:00:00.044042 -
+
+
+03-20-23 18:16:27         INFO       Puzzle               play                      line:214   - tasks start: main -
+
+03-20-23 18:16:27         DEBUG      Puzzle               play                      line:265   - main start - 
+03-20-23 18:16:27         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.SetFrames
+03-20-23 18:16:27         DEBUG      SetFrames            main                      line:13    set to min max frame
+03-20-23 18:16:27         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:16:27         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.001973
+
+03-20-23 18:16:27         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.CreateModelPanel
+03-20-23 18:16:27         DEBUG      CreateModelPanel     main                      line:12    create panel: new_panel
+03-20-23 18:16:27         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:16:27         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.000986
+
+03-20-23 18:16:27         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.SetHud
+03-20-23 18:16:27         DEBUG      SetHud               main                      line:12    set HUD
+03-20-23 18:16:27         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:16:27         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.001999
+
+03-20-23 18:16:27         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.Playblast
+03-20-23 18:16:27         DEBUG      Playblast            main                      line:16    playblast to: somewhere/work/shots/movie/ep01_s01_c01_anim.avi
+03-20-23 18:16:27         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:16:27         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.001323
+
+03-20-23 18:16:27         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.RemovePanel
+03-20-23 18:16:27         DEBUG      RemovePanel          main                      line:10    remove panel: new_panel
+03-20-23 18:16:27         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:16:27         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.002000
+
+03-20-23 18:16:27         INFO       Puzzle               play                      line:272   - main takes: 0:00:00.048100-
+
+03-20-23 18:16:27         INFO       Puzzle               play                      line:285   - done: 0:00:00.049097 -
+
+
+03-20-23 18:18:51         INFO       Puzzle               play                      line:214   - tasks start: main -
+
+03-20-23 18:18:51         DEBUG      Puzzle               play                      line:265   - main start - 
+03-20-23 18:18:51         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.SetFrames
+03-20-23 18:18:51         DEBUG      SetFrames            main                      line:13    set to min max frame
+03-20-23 18:18:51         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:18:51         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.002000
+
+03-20-23 18:18:51         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.CreateModelPanel
+03-20-23 18:18:51         DEBUG      CreateModelPanel     main                      line:12    create panel: new_panel
+03-20-23 18:18:51         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:18:51         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.001000
+
+03-20-23 18:18:51         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.SetHud
+03-20-23 18:18:51         DEBUG      SetHud               main                      line:12    set HUD
+03-20-23 18:18:51         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:18:51         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.001001
+
+03-20-23 18:18:51         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.Playblast
+03-20-23 18:18:51         DEBUG      Playblast            main                      line:16    playblast to: somewhere/work/shots/movie/ep01_s01_c01_anim.avi
+03-20-23 18:18:51         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:18:51         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.001000
+
+03-20-23 18:18:51         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.RemovePanel
+03-20-23 18:18:51         DEBUG      RemovePanel          main                      line:10    remove panel: new_panel
+03-20-23 18:18:51         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:18:51         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.002000
+
+03-20-23 18:18:51         INFO       Puzzle               play                      line:272   - main takes: 0:00:00.049265-
+
+03-20-23 18:18:51         INFO       Puzzle               play                      line:285   - done: 0:00:00.052249 -
+
+
+03-20-23 18:18:57         INFO       Puzzle               play                      line:214   - tasks start: main -
+
+03-20-23 18:18:57         DEBUG      Puzzle               play                      line:265   - main start - 
+03-20-23 18:18:57         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.SetFrames
+03-20-23 18:18:57         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:18:57         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.000999
+
+03-20-23 18:18:57         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.CreateModelPanel
+03-20-23 18:18:57         DEBUG      CreateModelPanel     main                      line:12    create panel: new_panel
+03-20-23 18:18:57         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:18:57         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.001001
+
+03-20-23 18:18:57         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.SetHud
+03-20-23 18:18:57         DEBUG      SetHud               main                      line:12    set HUD
+03-20-23 18:18:57         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:18:57         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.002049
+
+03-20-23 18:18:57         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.Playblast
+03-20-23 18:18:57         DEBUG      Playblast            main                      line:16    playblast to: somewhere/work/shots/movie/ep01_s01_c01_anim.avi
+03-20-23 18:18:57         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:18:57         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.001003
+
+03-20-23 18:18:57         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.RemovePanel
+03-20-23 18:18:57         DEBUG      RemovePanel          main                      line:10    remove panel: new_panel
+03-20-23 18:18:57         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:18:57         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.001999
+
+03-20-23 18:18:57         INFO       Puzzle               play                      line:272   - main takes: 0:00:00.051286-
+
+03-20-23 18:18:57         INFO       Puzzle               play                      line:285   - done: 0:00:00.053282 -
+
+
+03-20-23 18:19:02         INFO       Puzzle               play                      line:214   - tasks start: main -
+
+03-20-23 18:19:02         DEBUG      Puzzle               play                      line:265   - main start - 
+03-20-23 18:19:02         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.SetFrames
+03-20-23 18:19:02         DEBUG      SetFrames            main                      line:13    set to min max frame
+03-20-23 18:19:02         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:19:02         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.002013
+
+03-20-23 18:19:02         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.CreateModelPanel
+03-20-23 18:19:02         DEBUG      CreateModelPanel     main                      line:12    create panel: new_panel
+03-20-23 18:19:02         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:19:02         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.001032
+
+03-20-23 18:19:02         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.SetHud
+03-20-23 18:19:02         DEBUG      SetHud               main                      line:12    set HUD
+03-20-23 18:19:02         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:19:02         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.002001
+
+03-20-23 18:19:02         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.Playblast
+03-20-23 18:19:02         DEBUG      Playblast            main                      line:16    playblast to: somewhere/work/shots/movie/ep01_s01_c01_anim.avi
+03-20-23 18:19:02         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:19:02         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.001188
+
+03-20-23 18:19:02         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.RemovePanel
+03-20-23 18:19:02         DEBUG      RemovePanel          main                      line:10    remove panel: new_panel
+03-20-23 18:19:02         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:19:02         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.000982
+
+03-20-23 18:19:02         INFO       Puzzle               play                      line:272   - main takes: 0:00:00.044649-
+
+03-20-23 18:19:02         INFO       Puzzle               play                      line:285   - done: 0:00:00.046651 -
+
+
+03-20-23 18:19:07         INFO       Puzzle               play                      line:214   - tasks start: main -
+
+03-20-23 18:19:07         DEBUG      Puzzle               play                      line:265   - main start - 
+03-20-23 18:19:07         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.SetFrames
+03-20-23 18:19:07         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:19:07         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.001000
+
+03-20-23 18:19:07         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.CreateModelPanel
+03-20-23 18:19:07         DEBUG      CreateModelPanel     main                      line:12    create panel: new_panel
+03-20-23 18:19:07         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:19:07         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.002000
+
+03-20-23 18:19:07         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.SetHud
+03-20-23 18:19:07         DEBUG      SetHud               main                      line:12    set HUD
+03-20-23 18:19:07         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:19:07         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.001000
+
+03-20-23 18:19:07         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.Playblast
+03-20-23 18:19:07         DEBUG      Playblast            main                      line:16    playblast to: somewhere/work/shots/movie/ep01_s01_c01_anim.avi
+03-20-23 18:19:07         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:19:07         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.001061
+
+03-20-23 18:19:07         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.RemovePanel
+03-20-23 18:19:07         DEBUG      RemovePanel          main                      line:10    remove panel: new_panel
+03-20-23 18:19:07         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:19:07         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.001000
+
+03-20-23 18:19:07         INFO       Puzzle               play                      line:272   - main takes: 0:00:00.041110-
+
+03-20-23 18:19:07         INFO       Puzzle               play                      line:285   - done: 0:00:00.043115 -
+
+
+03-20-23 18:19:11         INFO       Puzzle               play                      line:214   - tasks start: main -
+
+03-20-23 18:19:11         DEBUG      Puzzle               play                      line:265   - main start - 
+03-20-23 18:19:11         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.SetFrames
+03-20-23 18:19:11         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:19:11         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.001000
+
+03-20-23 18:19:11         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.CreateModelPanel
+03-20-23 18:19:11         DEBUG      CreateModelPanel     main                      line:12    create panel: new_panel
+03-20-23 18:19:11         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:19:11         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.002083
+
+03-20-23 18:19:11         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.SetHud
+03-20-23 18:19:11         DEBUG      SetHud               main                      line:12    set HUD
+03-20-23 18:19:11         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:19:11         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.001353
+
+03-20-23 18:19:11         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.Playblast
+03-20-23 18:19:11         DEBUG      Playblast            main                      line:16    playblast to: somewhere/work/shots/movie/ep01_s01_c01_anim.avi
+03-20-23 18:19:11         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:19:11         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.001000
+
+03-20-23 18:19:11         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.RemovePanel
+03-20-23 18:19:11         DEBUG      RemovePanel          main                      line:10    remove panel: new_panel
+03-20-23 18:19:11         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:19:11         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.002000
+
+03-20-23 18:19:11         INFO       Puzzle               play                      line:272   - main takes: 0:00:00.044609-
+
+03-20-23 18:19:11         INFO       Puzzle               play                      line:285   - done: 0:00:00.047633 -
+
+
+03-20-23 18:19:15         INFO       Puzzle               play                      line:214   - tasks start: main -
+
+03-20-23 18:19:15         DEBUG      Puzzle               play                      line:265   - main start - 
+03-20-23 18:19:15         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.SetFrames
+03-20-23 18:19:15         DEBUG      SetFrames            main                      line:13    set to min max frame
+03-20-23 18:19:15         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:19:15         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.002001
+
+03-20-23 18:19:15         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.CreateModelPanel
+03-20-23 18:19:16         DEBUG      CreateModelPanel     main                      line:12    create panel: new_panel
+03-20-23 18:19:16         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:19:16         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.002001
+
+03-20-23 18:19:16         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.SetHud
+03-20-23 18:19:16         DEBUG      SetHud               main                      line:12    set HUD
+03-20-23 18:19:16         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:19:16         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.000984
+
+03-20-23 18:19:16         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.Playblast
+03-20-23 18:19:16         DEBUG      Playblast            main                      line:16    playblast to: somewhere/work/shots/movie/ep01_s01_c01_anim.avi
+03-20-23 18:19:16         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:19:16         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.002002
+
+03-20-23 18:19:16         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.RemovePanel
+03-20-23 18:19:16         DEBUG      RemovePanel          main                      line:10    remove panel: new_panel
+03-20-23 18:19:16         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:19:16         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.001001
+
+03-20-23 18:19:16         INFO       Puzzle               play                      line:272   - main takes: 0:00:00.046522-
+
+03-20-23 18:19:16         INFO       Puzzle               play                      line:285   - done: 0:00:00.048520 -
+
+
+03-20-23 18:19:28         INFO       Puzzle               play                      line:214   - tasks start: main -
+
+03-20-23 18:19:28         DEBUG      Puzzle               play                      line:265   - main start - 
+03-20-23 18:19:28         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.CreateModelPanel
+03-20-23 18:19:28         DEBUG      CreateModelPanel     main                      line:12    create panel: new_panel
+03-20-23 18:19:28         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:19:28         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.003005
+
+03-20-23 18:19:28         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.SetHud
+03-20-23 18:19:28         DEBUG      SetHud               main                      line:12    set HUD
+03-20-23 18:19:28         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:19:28         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.000986
+
+03-20-23 18:19:28         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.Playblast
+03-20-23 18:19:28         CRITICAL   Playblast            main                      line:11    skip: start and end frame is 0
+03-20-23 18:19:28         DEBUG      PzTask               execute                   line:122   return_code: 2
+03-20-23 18:19:28         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.002000
+
+03-20-23 18:19:28         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.RemovePanel
+03-20-23 18:19:28         DEBUG      RemovePanel          main                      line:10    remove panel: new_panel
+03-20-23 18:19:28         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:19:28         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.001977
+
+03-20-23 18:19:28         INFO       Puzzle               play                      line:272   - main takes: 0:00:00.053189-
+
+03-20-23 18:19:28         INFO       Puzzle               play                      line:285   - done: 0:00:00.055186 -
+
+
+03-20-23 18:19:34         INFO       Puzzle               play                      line:214   - tasks start: main -
+
+03-20-23 18:19:34         DEBUG      Puzzle               play                      line:265   - main start - 
+03-20-23 18:19:34         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.CreateModelPanel
+03-20-23 18:19:34         DEBUG      CreateModelPanel     main                      line:12    create panel: new_panel
+03-20-23 18:19:34         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:19:34         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.000988
+
+03-20-23 18:19:34         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.SetHud
+03-20-23 18:19:34         DEBUG      SetHud               main                      line:12    set HUD
+03-20-23 18:19:34         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:19:34         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.002000
+
+03-20-23 18:19:34         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.Playblast
+03-20-23 18:19:34         DEBUG      Playblast            main                      line:16    playblast to: somewhere/work/shots/ep01/s01/c01/movie/ep01_s01_c01_anim.avi
+03-20-23 18:19:34         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:19:34         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.001000
+
+03-20-23 18:19:34         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.RemovePanel
+03-20-23 18:19:34         DEBUG      RemovePanel          main                      line:10    remove panel: new_panel
+03-20-23 18:19:34         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 18:19:34         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.002009
+
+03-20-23 18:19:34         INFO       Puzzle               play                      line:272   - main takes: 0:00:00.037737-
+
+03-20-23 18:19:34         INFO       Puzzle               play                      line:285   - done: 0:00:00.039739 -
+
+

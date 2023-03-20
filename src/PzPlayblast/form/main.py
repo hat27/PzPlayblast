@@ -112,6 +112,20 @@ class PzPlayblast(QtWidgets.QMainWindow):
         pprint.pprint(self.project.config["puzzle"]["playblast"])
         print("")
         self.puzzle.play(self.project.config["puzzle"]["playblast"], data)
+        message = []
+        error = False
+        for log in self.puzzle.logger.details.get_all():
+            print(log)
+            if "details" in log:
+                message.extend(log["details"])
+            else:
+                message.append(log["header"])
+            if log["return_code"] > 0:
+                error = True
+        if error:
+            QtWidgets.QMessageBox.warning(self, "info", "\n".join(message), QtWidgets.QMessageBox.Ok)
+        else:
+            QtWidgets.QMessageBox.information(self, "info", "\n".join(message), QtWidgets.QMessageBox.Ok)
     
     def is_opened(self):
         return True
