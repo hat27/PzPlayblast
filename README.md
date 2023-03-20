@@ -64,6 +64,7 @@ it will join togather finally.
 
 # [Puzzle2](https://github.com/hat27/Puzzle2)
 "Puzzle2" is a pipeline framework for any type of python scripts.
+
 [document](https://hat27.github.io/puzzle2/)
 
 When you press the "playblast" button, then puzzle2 will take care of it.
