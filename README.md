@@ -47,9 +47,8 @@ default config for PzPlayblast and variations below
 - PzPlayblast.projectA.ep01.v1.yml
 - PzPlayblast.projectB.v1.yml
 
----
 
-when you set projectA
+For example, when you set projectA
 
 **relative config files are:**
 - base.v1.yml (parent: none)
@@ -97,9 +96,11 @@ In Project A, we needed to create a playblast tool, so I created PzPlayblast for
 
 I designed the tasks as follows:
 
+```
 1. Create a model panel
 2. Playblast
 3. Remove the model panel
+```
 
 When Project A started, an animator mentioned that "when I set start and end frames to 0,  
 movie was not created!"  
@@ -115,10 +116,12 @@ I wondered if I could add this to the default, but I decided to add it to a new 
 
 The tasks in this configuration are as follows:
 
+```
 1. Create a model panel
 2. Set the HUD
 3. Playblast
 4. Remove the model panel
+```
 
 As time went by, Project B started, and an animator from Project A asked me,  
 
@@ -133,12 +136,14 @@ But once I added "data_key_replace," everything went well.
 
 The tasks in Project B are as follows:
 
+```
 1. Set frames
 2. Create a model panel
 3. Set the HUD
 4. Playblast
 5. Remove the model panel
-   
+```
+
 Then, I added a new value for the "output path" to "PzPlayblast.projectB.v1.yml".
 This works to change output location.
 
