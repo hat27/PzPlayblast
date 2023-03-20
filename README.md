@@ -1,7 +1,8 @@
 This is a conceptual tool for our open-source project, Puzzle2 and Sticky.  
-This tool is designed to simulate playblasts only. 
+This tool is designed to simulate playblasts but can not used in maya. 
 
 Please run it as a standalone application.
+
 
 # Instrallation
 
@@ -15,10 +16,10 @@ pipenv install --python 3.x
 pipenv shell
 cd ../
 pip install -r requirement.txt
-```
 
-run tools
-`python src/PzPlayblast/form/main.py`
+# run tool
+python src/PzPlayblast/form/main.py
+```
 
 ![PzPlayblast](sample/image.png)
 
@@ -27,7 +28,7 @@ run tools
 change project, start, end then push "playblast".  
 then check stdout.  
 
-# Sticky
+# [Sticky](https://github.com/hat27/Sticky)
 
 "Sticky" is a module for merging several configurations.
 In the case of this tool, I made configuration files below.
@@ -61,9 +62,12 @@ project configs and tool configs are different tree but
 it will join togather finally.
 
 
-# Puzzle2
-"Puzzle2" is a module that pertains to pipeline systems.  
-When you press the "playblast" button, then puzzle will take care of it.
+# [Puzzle2](https://github.com/hat27/Puzzle2)
+"Puzzle2" is a pipeline framework for any type of python scripts.
+
+[document](https://hat27.github.io/puzzle2/)
+
+When you press the "playblast" button, then puzzle2 will take care of it.
 
 I made 5 tasks
 - CreateModelPanel
