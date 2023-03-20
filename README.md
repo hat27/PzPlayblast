@@ -1,7 +1,8 @@
 This is a conceptual tool for our open-source project, Puzzle2 and Sticky.  
-This tool is designed to simulate playblasts only. 
+This tool is designed to simulate playblasts but can not used in maya. 
 
 Please run it as a standalone application.
+
 
 # Instrallation
 
