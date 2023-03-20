@@ -67,7 +67,7 @@ it will join togather finally.
 
 [document](https://hat27.github.io/puzzle2/)
 
-When you press the "playblast" button, then puzzle2 will take care of it.
+When you press the "playblast" button, then puzzle2 will take care after that.
 
 I made 5 tasks
 - CreateModelPanel
