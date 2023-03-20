@@ -107,8 +107,8 @@ The tool has 2 inputs(start, end) and execute button labels "playblast"
 3. Remove the model panel
 ```
 
-When Project A started, an animator mentioned that "when I set start and end frames to 0,  
-movie was not created!"  
+When Project A started, an animator mentioned that  
+"when I set start and end frames to 0, movie was not created!"  
 
 So, I added a skip code to the "Playblast" task to prevent this issue from happening again.
 
@@ -117,12 +117,12 @@ The director requested, "I want to see the HUD in the preview."
 
 Then, I created and added a "SetHud" task. 
 I wondered if I could add this to the default, but I decided to add it to a new configuration,
-"PzPlayblast.projectA.ep01.v1.yml". 
+"PzPlayblast.projectA.ep01.v1.yml".  
 
 **The tasks in this configuration are as follows:**
 ```
 1. Create a model panel
-2. Set the HUD
+2. Set the HUD # new!
 3. Playblast
 4. Remove the model panel
 ```
@@ -141,7 +141,7 @@ But once I added "data_key_replace," everything went well.
 **The tasks in Project B are as follows:**
 
 ```
-1. Set frames
+1. Set frames # new!
 2. Create a model panel
 3. Set the HUD
 4. Playblast
