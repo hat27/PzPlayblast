@@ -26,7 +26,6 @@ python src/PzPlayblast/form/main.py
 ### to use
 
 change project, start, end then push "playblast".  
-then check stdout.  
 
 # [Sticky](https://github.com/hat27/Sticky)
 
