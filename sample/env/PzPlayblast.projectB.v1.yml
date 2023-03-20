@@ -1,0 +1,35 @@
+info:
+  parent: ../PzPlayblast.v1.yml
+  name: PzPlayblast.projectB.v1
+
+data:
+  keyA: value1
+  keyB: value2
+  shot:
+    template:
+      playblast:
+        somewhere/<progress>/shots/movie/<episode>_<sequence>_<cut>_<step>.avi
+
+  puzzle:
+    playblast:
+      - step: main
+        tasks:
+          - name: set_frames
+            module: sample.tasks.SetFrames
+
+          - name: set_modelPanel
+            module: sample.tasks.CreateModelPanel
+
+          - name: set HUD
+            module: sample.tasks.SetHud
+
+          - name: playblast
+            module: sample.tasks.Playblast
+            data_key_replace:
+              start_frame: context.new_start_frame
+              end_frame: context.new_end_frame
+          
+          - name: remove_model_panel
+            module: sample.tasks.RemovePanel
+            data_key_replace:
+              panel_name: context.new_panel_name

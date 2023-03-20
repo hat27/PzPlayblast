@@ -1,0 +1,16 @@
+info:
+  parent: none
+  name: base.v1
+
+data:
+  general:
+    resolution: 
+      width: 1920
+      height: 1080
+
+  shot:
+    format: mov
+    compression: h264
+    template:
+      main:
+        somewhere/<progress>/shots/<episode>/<sequence>/<cut>/<episode>_<sequence>_<cut>_<step>.ma

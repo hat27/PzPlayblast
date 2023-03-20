@@ -1,0 +1,5 @@
+Qt.py
+pyyaml
+git+https://github.com/hat27/Sticky.git
+git+https://github.com/hat27/puzzle2.git
+PySide2

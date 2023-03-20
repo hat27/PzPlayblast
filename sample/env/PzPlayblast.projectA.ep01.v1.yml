@@ -1,0 +1,25 @@
+info:
+  parent: ../PzPlayblast.projectA.v1.yml
+  name: PzPlayblast.projectA.ep01.v1
+
+data:
+  keyA: value1
+  keyB: value2
+  
+  puzzle:
+    playblast:
+      - step: main
+        tasks:
+          - name: set_modelPanel
+            module: sample.tasks.CreateModelPanel
+          
+          - name: set HUD
+            module: sample.tasks.SetHud
+          
+          - name: playblast
+            module: sample.tasks.Playblast
+          
+          - name: remove_model_panel
+            module: sample.tasks.RemovePanel
+            data_key_replace:
+              panel_name: context.new_panel_name

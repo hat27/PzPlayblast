@@ -1,0 +1,7 @@
+info:
+  parent: ../PzPlayblast.v1.yml
+  name: PzPlayblast.projectA.v1
+
+data:
+  keyA: value1
+  keyB: value2

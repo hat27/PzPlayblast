@@ -1,0 +1,7 @@
+info:
+  parent: ../base.v1.yml
+  name: base.v2
+
+data:
+  general:
+    fps: 30

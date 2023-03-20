@@ -1,0 +1,16 @@
+info:
+  parent: ../base.v2.yml
+  name: projectB.v1
+  type: project
+
+data:
+  general:
+    resolution: 
+      width: 640
+      height: 360
+    fps: 24
+  
+  shot:
+    format: avi
+    compression: none
+
