@@ -8,7 +8,7 @@ Please run it as a standalone application.
 set current directory to your location
 
 ```
-git clone git@github.com:hat27/PzPlayblast.git .
+git clone git@github.com:hat27/PzPlayblast.git PzPlayblast; cd PzPlayblast
 
 mkdir pipenv; cd pipenv
 pipenv install --python 3.x
