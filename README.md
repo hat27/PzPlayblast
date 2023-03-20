@@ -15,10 +15,10 @@ pipenv install --python 3.x
 pipenv shell
 cd ../
 pip install -r requirement.txt
-```
 
-run tools
-`python src/PzPlayblast/form/main.py`
+# run tool
+python src/PzPlayblast/form/main.py
+```
 
 ![PzPlayblast](sample/image.png)
 
