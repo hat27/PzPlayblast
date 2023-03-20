@@ -27,7 +27,7 @@ python src/PzPlayblast/form/main.py
 change project, start, end then push "playblast".  
 then check stdout.  
 
-# Sticky
+# [Sticky](https://github.com/hat27/Sticky)
 
 "Sticky" is a module for merging several configurations.
 In the case of this tool, I made configuration files below.
@@ -61,9 +61,11 @@ project configs and tool configs are different tree but
 it will join togather finally.
 
 
-# Puzzle2
-"Puzzle2" is a module that pertains to pipeline systems.  
-When you press the "playblast" button, then puzzle will take care of it.
+# [Puzzle2](https://github.com/hat27/Puzzle2)
+"Puzzle2" is a pipeline framework for any type of python scripts.
+[document](https://hat27.github.io/puzzle2/)
+
+When you press the "playblast" button, then puzzle2 will take care of it.
 
 I made 5 tasks
 - CreateModelPanel
