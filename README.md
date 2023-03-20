@@ -144,7 +144,7 @@ The tasks in Project B are as follows:
 5. Remove the model panel
 ```
 
-Then, I added a new value for the "output path" to "PzPlayblast.projectB.v1.yml".
+Then, I added a new value for the "output path" to "PzPlayblast.projectB.v1.yml".  
 This works to change output location.
 
 In the end, PzPlayblast became an essential tool for the animation team, 
