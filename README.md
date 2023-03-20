@@ -98,8 +98,9 @@ Anyway, in this tool, when 0~0 is going to be the default value
 ## PzPlayblast Story
 
 In Project A, we needed to create a playblast tool, so I created PzPlayblast for animators.
+The tool has 2 inputs(start, end) and execute button labels "playblast"   
 
-**I designed the tasks as follows:**
+**I designed the tasks(playblast button process) as follows:**
 ```
 1. Create a model panel
 2. Playblast
