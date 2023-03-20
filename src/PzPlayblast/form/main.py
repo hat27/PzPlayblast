@@ -9,7 +9,7 @@ print(task_directory)
 
 sys.path.append(task_directory)
 
-from Qt import QtWidgets
+from Qt import QtWidgets, QtCore
 from puzzle2.Puzzle import Puzzle
 from sticky.StickyProjectManager import StickyProjectManager
 from sticky.Sticky import StickyConfig
@@ -46,6 +46,7 @@ class PzPlayblast(QtWidgets.QMainWindow):
             label.setMaximumWidth(50)
             spin_box.setMinimum(-100000)
             spin_box.setMaximum(100000)
+            spin_box.setAlignment(QtCore.Qt.AlignCenter)
             hlayout = QtWidgets.QHBoxLayout()
             hlayout.addWidget(label)
             hlayout.addWidget(spin_box)

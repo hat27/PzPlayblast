@@ -795,3 +795,28 @@ ModuleNotFoundError: No module named 'sample.tasks.ChangeFrame'
 03-20-23 13:23:00         INFO       Puzzle               play                      line:285   - done: 0:00:00.053093 -
 
 
+03-20-23 13:53:11         DEBUG      Puzzle               __init__                  line:64    baseFilename: H:\projects\colorrd\repos\PzPlayblast\sample\log\PzPlayblast.log
+03-20-23 13:54:01         DEBUG      Puzzle               __init__                  line:64    baseFilename: H:\projects\colorrd\repos\PzPlayblast\sample\log\PzPlayblast.log
+03-20-23 13:54:04         INFO       Puzzle               play                      line:214   - tasks start: main -
+
+03-20-23 13:54:04         DEBUG      Puzzle               play                      line:265   - main start - 
+03-20-23 13:54:04         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.CreateModelPanel
+03-20-23 13:54:04         DEBUG      CreateModelPanel     main                      line:12    create panel: new_panel
+03-20-23 13:54:04         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 13:54:04         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.001003
+
+03-20-23 13:54:04         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.Playblast
+03-20-23 13:54:04         CRITICAL   Playblast            main                      line:11    skip: start and end frame is 0
+03-20-23 13:54:04         DEBUG      PzTask               execute                   line:122   return_code: 2
+03-20-23 13:54:04         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.001039
+
+03-20-23 13:54:04         INFO       Puzzle               _execute_task             line:171   module: sample.tasks.RemovePanel
+03-20-23 13:54:04         DEBUG      RemovePanel          main                      line:10    remove panel: new_panel
+03-20-23 13:54:04         DEBUG      PzTask               execute                   line:122   return_code: 0
+03-20-23 13:54:04         INFO       Puzzle               _execute_task             line:195   task takes: 0:00:00.001000
+
+03-20-23 13:54:04         INFO       Puzzle               play                      line:272   - main takes: 0:00:00.051950-
+
+03-20-23 13:54:04         INFO       Puzzle               play                      line:285   - done: 0:00:00.054974 -
+
+

@@ -19,6 +19,13 @@ pip install -r requirement.txt
 run tools
 `python src/PzPlayblast/form/main.py`
 
+![PzPlayblast](sample/image.png)
+
+### to use
+
+change project, start, end then push "playblast".
+then check stdout.
+
 # Sticky
 
 "Sticky" is a module for merging several configurations.
