@@ -3,6 +3,8 @@ This tool is designed to simulate playblasts but can not used in maya.
 
 Please run it as a standalone application.
 
+# python
+use 3.7 ~ 3.10
 
 # Instrallation
 
